@@ -2,6 +2,9 @@
   "name": "code-reviewer",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "review": "bun run index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
